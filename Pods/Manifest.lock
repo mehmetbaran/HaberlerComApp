@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.0.5)
+  - MBProgressHUD (1.2.0)
+  - MBVideoPlayer (0.1.1)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0)
+  - MBProgressHUD (~> 1.2.0)
+  - MBVideoPlayer (from `https://github.com/mwaqasbhati/MBVideoPlayer.git`)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MBProgressHUD
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  MBVideoPlayer:
+    :git: https://github.com/mwaqasbhati/MBVideoPlayer.git
+
+CHECKOUT OPTIONS:
+  MBVideoPlayer:
+    :commit: ed8a7777a991ec06fcdc0234b40f5611b2839d03
+    :git: https://github.com/mwaqasbhati/MBVideoPlayer.git
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MBVideoPlayer: 521a2a0c83bf7b1bb913d189b1c151f338c35054
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+
+PODFILE CHECKSUM: 0af844bc8efde2f390ade58decce8060259b6613
+
+COCOAPODS: 1.9.1

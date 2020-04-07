@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B31C0D42722252F7976B8C /* Pods_HaberlerComApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CD5BD6BAF8E6C9182B073A /* Pods_HaberlerComApp.framework */; };
+		95045A77243A3B0D00F4D262 /* ReadNewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */; };
+		952D9613243D1BC500FE2BC0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 952D9612243D1BC500FE2BC0 /* logo.png */; };
+		95D35F1124360F550002470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F1024360F550002470C /* AppDelegate.swift */; };
+		95D35F1324360F550002470C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F1224360F550002470C /* SceneDelegate.swift */; };
+		95D35F1524360F550002470C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F1424360F550002470C /* ViewController.swift */; };
+		95D35F1824360F550002470C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D35F1624360F550002470C /* Main.storyboard */; };
+		95D35F1A24360F560002470C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D35F1924360F560002470C /* Assets.xcassets */; };
+		95D35F1D24360F560002470C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D35F1B24360F560002470C /* LaunchScreen.storyboard */; };
+		95D35F25243679FB0002470C /* NewsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F24243679FA0002470C /* NewsModal.swift */; };
+		95D35F272436ACBB0002470C /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F262436ACBB0002470C /* FeaturedTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27764DECD5BD28FBB91F2E89 /* Pods-HaberlerComApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaberlerComApp.release.xcconfig"; path = "Target Support Files/Pods-HaberlerComApp/Pods-HaberlerComApp.release.xcconfig"; sourceTree = "<group>"; };
+		37CD5BD6BAF8E6C9182B073A /* Pods_HaberlerComApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaberlerComApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadNewsDetailViewController.swift; sourceTree = "<group>"; };
+		952D9612243D1BC500FE2BC0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../Desktop/logo.png; sourceTree = "<group>"; };
+		95D35F0D24360F550002470C /* HaberlerComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaberlerComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D35F1024360F550002470C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95D35F1224360F550002470C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95D35F1424360F550002470C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95D35F1724360F550002470C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95D35F1924360F560002470C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95D35F1C24360F560002470C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95D35F1E24360F560002470C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D35F24243679FA0002470C /* NewsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModal.swift; sourceTree = "<group>"; };
+		95D35F262436ACBB0002470C /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		AEA101910543710F76B1221F /* Pods-HaberlerComApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaberlerComApp.debug.xcconfig"; path = "Target Support Files/Pods-HaberlerComApp/Pods-HaberlerComApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D35F0A24360F550002470C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B31C0D42722252F7976B8C /* Pods_HaberlerComApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41768E436FD86F2FE7F46553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CD5BD6BAF8E6C9182B073A /* Pods_HaberlerComApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95D35F0424360F550002470C = {
+			isa = PBXGroup;
+			children = (
+				95D35F0F24360F550002470C /* HaberlerComApp */,
+				95D35F0E24360F550002470C /* Products */,
+				DED9F297187AD5683838A6D3 /* Pods */,
+				41768E436FD86F2FE7F46553 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95D35F0E24360F550002470C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D35F0D24360F550002470C /* HaberlerComApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D35F0F24360F550002470C /* HaberlerComApp */ = {
+			isa = PBXGroup;
+			children = (
+				95D35F1024360F550002470C /* AppDelegate.swift */,
+				952D9612243D1BC500FE2BC0 /* logo.png */,
+				95D35F1224360F550002470C /* SceneDelegate.swift */,
+				95D35F1424360F550002470C /* ViewController.swift */,
+				95D35F1624360F550002470C /* Main.storyboard */,
+				95D35F24243679FA0002470C /* NewsModal.swift */,
+				95D35F262436ACBB0002470C /* FeaturedTableViewCell.swift */,
+				95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */,
+				95D35F1924360F560002470C /* Assets.xcassets */,
+				95D35F1B24360F560002470C /* LaunchScreen.storyboard */,
+				95D35F1E24360F560002470C /* Info.plist */,
+			);
+			path = HaberlerComApp;
+			sourceTree = "<group>";
+		};
+		DED9F297187AD5683838A6D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEA101910543710F76B1221F /* Pods-HaberlerComApp.debug.xcconfig */,
+				27764DECD5BD28FBB91F2E89 /* Pods-HaberlerComApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D35F0C24360F550002470C /* HaberlerComApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D35F2124360F560002470C /* Build configuration list for PBXNativeTarget "HaberlerComApp" */;
+			buildPhases = (
+				032EC3E1CC175F1E53A4DAD0 /* [CP] Check Pods Manifest.lock */,
+				95D35F0924360F550002470C /* Sources */,
+				95D35F0A24360F550002470C /* Frameworks */,
+				95D35F0B24360F550002470C /* Resources */,
+				E851B8441257EF923E8B78C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaberlerComApp;
+			productName = HaberlerComApp;
+			productReference = 95D35F0D24360F550002470C /* HaberlerComApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D35F0524360F550002470C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mehmet Baran";
+				TargetAttributes = {
+					95D35F0C24360F550002470C = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 95D35F0824360F550002470C /* Build configuration list for PBXProject "HaberlerComApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95D35F0424360F550002470C;
+			productRefGroup = 95D35F0E24360F550002470C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D35F0C24360F550002470C /* HaberlerComApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D35F0B24360F550002470C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952D9613243D1BC500FE2BC0 /* logo.png in Resources */,
+				95D35F1D24360F560002470C /* LaunchScreen.storyboard in Resources */,
+				95D35F1A24360F560002470C /* Assets.xcassets in Resources */,
+				95D35F1824360F550002470C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		032EC3E1CC175F1E53A4DAD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaberlerComApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E851B8441257EF923E8B78C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HaberlerComApp/Pods-HaberlerComApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HaberlerComApp/Pods-HaberlerComApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HaberlerComApp/Pods-HaberlerComApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D35F0924360F550002470C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D35F25243679FB0002470C /* NewsModal.swift in Sources */,
+				95D35F1524360F550002470C /* ViewController.swift in Sources */,
+				95045A77243A3B0D00F4D262 /* ReadNewsDetailViewController.swift in Sources */,
+				95D35F1124360F550002470C /* AppDelegate.swift in Sources */,
+				95D35F272436ACBB0002470C /* FeaturedTableViewCell.swift in Sources */,
+				95D35F1324360F550002470C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95D35F1624360F550002470C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D35F1724360F550002470C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95D35F1B24360F560002470C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D35F1C24360F560002470C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D35F1F24360F560002470C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95D35F2024360F560002470C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D35F2224360F560002470C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA101910543710F76B1221F /* Pods-HaberlerComApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = HaberlerComApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mehmetbaran11541527-gmail.com.HaberlerComApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95D35F2324360F560002470C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27764DECD5BD28FBB91F2E89 /* Pods-HaberlerComApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9L2TCTT3QB;
+				INFOPLIST_FILE = HaberlerComApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mehmetbaran11541527-gmail.com.HaberlerComApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D35F0824360F550002470C /* Build configuration list for PBXProject "HaberlerComApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D35F1F24360F560002470C /* Debug */,
+				95D35F2024360F560002470C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D35F2124360F560002470C /* Build configuration list for PBXNativeTarget "HaberlerComApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D35F2224360F560002470C /* Debug */,
+				95D35F2324360F560002470C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D35F0524360F550002470C /* Project object */;
+}
