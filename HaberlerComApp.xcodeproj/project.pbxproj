@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		20B31C0D42722252F7976B8C /* Pods_HaberlerComApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CD5BD6BAF8E6C9182B073A /* Pods_HaberlerComApp.framework */; };
 		95045A77243A3B0D00F4D262 /* ReadNewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */; };
-		952D9613243D1BC500FE2BC0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 952D9612243D1BC500FE2BC0 /* logo.png */; };
 		95D35F1124360F550002470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F1024360F550002470C /* AppDelegate.swift */; };
 		95D35F1324360F550002470C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F1224360F550002470C /* SceneDelegate.swift */; };
 		95D35F1524360F550002470C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35F1424360F550002470C /* ViewController.swift */; };
@@ -24,7 +23,6 @@
 		27764DECD5BD28FBB91F2E89 /* Pods-HaberlerComApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaberlerComApp.release.xcconfig"; path = "Target Support Files/Pods-HaberlerComApp/Pods-HaberlerComApp.release.xcconfig"; sourceTree = "<group>"; };
 		37CD5BD6BAF8E6C9182B073A /* Pods_HaberlerComApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaberlerComApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadNewsDetailViewController.swift; sourceTree = "<group>"; };
-		952D9612243D1BC500FE2BC0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../Desktop/logo.png; sourceTree = "<group>"; };
 		95D35F0D24360F550002470C /* HaberlerComApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaberlerComApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D35F1024360F550002470C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D35F1224360F550002470C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				95D35F1024360F550002470C /* AppDelegate.swift */,
-				952D9612243D1BC500FE2BC0 /* logo.png */,
 				95D35F1224360F550002470C /* SceneDelegate.swift */,
 				95D35F1424360F550002470C /* ViewController.swift */,
 				95D35F1624360F550002470C /* Main.storyboard */,
@@ -163,7 +160,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952D9613243D1BC500FE2BC0 /* logo.png in Resources */,
 				95D35F1D24360F560002470C /* LaunchScreen.storyboard in Resources */,
 				95D35F1A24360F560002470C /* Assets.xcassets in Resources */,
 				95D35F1824360F550002470C /* Main.storyboard in Resources */,
