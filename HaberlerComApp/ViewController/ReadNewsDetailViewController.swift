@@ -31,26 +31,26 @@ class ReadNewsDetailViewController: UIViewController {
  
     //Mark: Statements
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+     //Mark: Statements
         
-        if let selectedNews = selectedNews{
+        override func viewDidLoad() {
+            super.viewDidLoad()
             
-            newsTitle.text = selectedNews.title
-            newsSpot.text = selectedNews.spot
-    
- }
-        
-        let playerView = MBVideoPlayerView(configuration: nil, theme: nil, header: nil)
-        let playerItems = [
-            PlayerItem(title: selectedNews!.title, url: selectedNews!.videoUrl, thumbnail: "")]
-         
+            if let selectedNews = selectedNews{
+                
+                newsTitle.text = selectedNews.title
+                newsSpot.text = selectedNews.spot
+            }
+            
+            let playerView = MBVideoPlayerView(configuration: nil, theme: nil, header: nil)
+            let playerItems = [
+                PlayerItem(title: selectedNews!.title, url: selectedNews!.videoUrl, thumbnail: "")]
+            
             if let currentItem = playerItems.first {
                 playerView.setPlayList(currentItem: currentItem, items: playerItems, fullScreenView: view)
             }
-        
-        view.addSubview(playerView)
-        playerView.pinEdges(to: newsVideo )
-  
+            
+            view.addSubview(playerView)
+            playerView.pinEdges(to: newsVideo )
+        }
     }
-}

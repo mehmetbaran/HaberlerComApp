@@ -56,6 +56,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		952D9617243D3B5B00FE2BC0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95D35F1424360F550002470C /* ViewController.swift */,
+				95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		952D9618243D3B9900FE2BC0 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				95D35F24243679FA0002470C /* NewsModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		952D9619243D3BC400FE2BC0 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				95D35F262436ACBB0002470C /* FeaturedTableViewCell.swift */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
 		95D35F0424360F550002470C = {
 			isa = PBXGroup;
 			children = (
@@ -79,11 +104,10 @@
 			children = (
 				95D35F1024360F550002470C /* AppDelegate.swift */,
 				95D35F1224360F550002470C /* SceneDelegate.swift */,
-				95D35F1424360F550002470C /* ViewController.swift */,
+				952D9617243D3B5B00FE2BC0 /* ViewController */,
+				952D9618243D3B9900FE2BC0 /* Modal */,
+				952D9619243D3BC400FE2BC0 /* UITableViewCell */,
 				95D35F1624360F550002470C /* Main.storyboard */,
-				95D35F24243679FA0002470C /* NewsModal.swift */,
-				95D35F262436ACBB0002470C /* FeaturedTableViewCell.swift */,
-				95045A76243A3B0D00F4D262 /* ReadNewsDetailViewController.swift */,
 				95D35F1924360F560002470C /* Assets.xcassets */,
 				95D35F1B24360F560002470C /* LaunchScreen.storyboard */,
 				95D35F1E24360F560002470C /* Info.plist */,
